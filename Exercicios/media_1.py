@@ -4,8 +4,6 @@ b = float(input("Digite a nota B: "))
 
 notaA = (a * 3.5)
 notaB = (b * 7.5)
+notaFinal = ( notaA + notaB) / 11
 
-nota = ( notaA + notaB)
-notaFinal = (nota / 11)
-
-print(f"MEDIA = {notaFinal}")
+print(f"MEDIA = {notaFinal:,.5f}")
