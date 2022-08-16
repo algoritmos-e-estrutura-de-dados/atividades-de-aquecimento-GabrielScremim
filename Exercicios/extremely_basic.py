@@ -1,4 +1,4 @@
 a = int(input("Digite um número: "))
 b = int(input("Digite um número:"))
 
-print ("X = " + str(a + b))
+print (f"X = {a + b}")
